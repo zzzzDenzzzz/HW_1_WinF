@@ -34,10 +34,10 @@ namespace Task_8
             radioButtonCount.CheckedChanged += RadioButtonCheckedChanged;
             radioButtonSum.CheckedChanged += RadioButtonCheckedChanged;
 
-            //соб. выбора топлива
+            //сооб. выбора топлива
             comboBoxFuel.SelectedValueChanged += ComboBoxFuel_SelectedValueChanged;
 
-            //соб. при входе на текстовое поле и выходе из него
+            //сооб. при входе на текстовое поле и выходе из него
             textBoxRadioCount.Enter += TextBox_Enter;
             textBoxRadioCount.Leave += TextBox_Leave;
             textBoxRadioSum.Enter += TextBox_Enter;
@@ -51,29 +51,29 @@ namespace Task_8
             HamburgerCount.Enter += TextBox_Enter;
             HamburgerCount.Leave += TextBox_Leave;
 
-            //соб. изменения значений в полях покупки топлива и подсчет суммы
+            //сооб. изменения значений в полях покупки топлива и подсчет суммы
             textBoxRadioCount.TextChanged += Radio_TextChanged;
             textBoxRadioSum.TextChanged += Radio_TextChanged;
 
-            //соб. CheckBox-сов и изменение значений полей ReadOnly
+            //сооб. CheckBox-сов и изменение значений полей ReadOnly
             HotDogCheckBox.CheckedChanged += HotDogCheckBox_CheckedChanged;
             CokoColaCheckBox.CheckedChanged += CokoColaCheckBox_CheckedChanged;
             FrenchFriesCheckBox.CheckedChanged += FrenchFriesCheckBox_CheckedChanged;
             HamburgerCheckBox.CheckedChanged += HamburgerCheckBox_CheckedChanged;
 
-            //соб. изменения значений в полях покупки товаров в кафе и подсчет суммы
+            //сооб. изменения значений в полях покупки товаров в кафе и подсчет суммы
             HamburgerCount.TextChanged += HamburgerCount_TextChanged;
             HotDogCount.TextChanged += HotDogCount_TextChanged;
             CokoColaCount.TextChanged += CokoColaCount_TextChanged;
             FrenchFriesCount.TextChanged += FrenchFriesCount_TextChanged;
 
-            //соб. проверка на изменения значения вывода основной суммы
+            //сооб. проверка на изменения значения вывода основной суммы
             toPayCafe.TextChanged += ToPayCafe_TextChanged;
 
-            //соб. на нажатую кнопку рассчитать
+            //сооб. на нажатую кнопку рассчитать
             toCount.Click += ToCount_Click;
 
-            //соб. начало работы таймера
+            //сооб. начало работы таймера
             timer.Tick += Timer_Tick;
 
             FormClosing += Form1_FormClosing;
