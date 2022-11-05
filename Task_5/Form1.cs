@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*Разработать приложение «убегающий статик»:) Суть приложения: на  форме  расположен  статический  элемент  управления  («статик»). 
@@ -31,8 +25,6 @@ namespace Task_5
         /// <summary>
         /// создание label
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         void CreateLabel(object sender, EventArgs e)
         {
             label.BorderStyle = BorderStyle.Fixed3D;
@@ -49,8 +41,6 @@ namespace Task_5
         /// <summary>
         /// движение мыши по Form
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         void FormMouseMove(object sender, MouseEventArgs e)
         {
             if ((e.X > label.Location.X - margin && e.X < label.Location.X + label.Width + margin)
@@ -83,8 +73,7 @@ namespace Task_5
         /// <summary>
         /// центрирование Label
         /// </summary>
-        /// <param name="lable">label</param>
-        void LableCenter(Label lable)
+        void LableCenter(Label label)
         {
             label.Left = (Width - label.Size.Width) / 2;
             label.Top = (Height - label.Size.Height) / 2;
