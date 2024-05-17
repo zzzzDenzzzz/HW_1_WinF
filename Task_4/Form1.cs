@@ -68,7 +68,7 @@ namespace Task_4
         /// <param name="text">Текст сообщения</param>
         void MessageError(string text)
         {
-            MessageBox.Show(text, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(text, @"Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         /// <summary>

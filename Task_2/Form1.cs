@@ -49,7 +49,7 @@ namespace Task_2
         /// <returns>Да Нет</returns>
         DialogResult ExitGame()
         {
-            return MessageBox.Show($"Хотите продолжить?", "Выход", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            return MessageBox.Show($"Хотите продолжить?", @"Выход", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace Task_2
         /// <returns>Да Нет</returns>
         DialogResult QuestionNumber(Random randomNumber)
         {
-            return MessageBox.Show(randomNumber.Next(minNumber, maxNumber).ToString(), "Вы загадали число", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            return MessageBox.Show(randomNumber.Next(minNumber, maxNumber).ToString(), @"Вы загадали число", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
 
         /// <summary>
@@ -68,7 +68,7 @@ namespace Task_2
         /// <param name="count">Количество попыток</param>
         void Win(int count)
         {
-            MessageBox.Show($"Количество попыток {count}", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show($"Количество попыток {count}", @"Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

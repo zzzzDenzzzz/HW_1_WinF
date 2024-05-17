@@ -114,4 +114,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Form1_MouseClickButtonRight_" xml:space="preserve">
+	  <value>Ширина = {0}, Высота = {1}</value>
+  </data>
+  <data name="Form1_MouseMovement_X__0____Y__1_" xml:space="preserve">
+	  <value>X {0} - Y {1}</value>
+  </data>
+  <data name="Form1_ShowMessageBox_Сообщение" xml:space="preserve">
+	  <value>Сообщение</value>
+  </data>
 </root>
